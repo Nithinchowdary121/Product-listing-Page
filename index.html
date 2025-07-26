@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>Product Listing Page</title> 
+  <link rel="stylesheet" href="style.css" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.4.0/css/all.min.css"> 
+</head> 
+<body> 
+<header> 
+  <h1><i class="fas fa-store"></i> Product Showcase</h1> 
+ </header> 
+  <div class="main-layout"> 
+    <aside class="sidebar"> 
+      <h2>Filter & Sort</h2> 
+      <div class="filters"> 
+        <label for="category">Category</label> 
+        <select id="category"> 
+          <option value="all">All Categories</option> 
+          <option value="Electronics">Electronics</option> 
+          <option value="Books">Books</option> 
+          <option value="Clothing">Clothing</option> 
+        </select> 
+        <label for="sortBy">Sort By</label> 
+        <select id="sortBy"> 
+          <option value="default">None</option> 
+          <option value="price-asc">Price: Low to High</option> 
+          <option value="price-desc">Price: High to Low</option> 
+          <option value="rating">Rating</option> 
+        </select> 
+      </div> 
+    </aside> 
+    <section class="products" id="productList"></section> 
+  </div> 
+  <script src="script.js"></script> 
+</body> 
+</html> 
