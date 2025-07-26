@@ -1,15 +1,14 @@
 const products = [ 
-  { name: 'Smartphone', category: 'Electronics', price: 12000, rating: 4.2, image: 
-'images/phone1.png' }, 
-  { name: 'Laptop', category: 'Electronics', price: 45000, rating: 4.5, image: 
-'images/laptop.png' }, 
-{ name: 'Jeans', category: 'Clothing', price: 1500, rating: 3.9, image: 'images/jeans1.png' }, 
-{ name: 'Hoodie', category: 'Clothing', price: 900, rating: 4.1, image: 'images/hoodie1.png' },  { name: 'Novel', category: 'Books', price: 600, rating: 4.6, image: 'images/novel.png' }, 
-  { name: 'JavaScript', category: 'Books', price: 180, rating: 4.0, image: 'images/js1book.png' }, 
-  { name: 'Tablet', category: 'Electronics', price: 22000, rating: 4.3, image: 'images/tab1.png' 
-}, 
-  { name: 'Shirt', category: 'Clothing', price: 1100, rating: 4.0, image: 'images/shirt1.png' }, 
-  { name: 'HTML & CSS Notebook', category: 'Books', price: 250, rating: 4.4, image: 'images/htmlbook1.png' } 
+  { name: 'Smartphone', category: 'Electronics', price: 150000, rating: 4.5, image: 
+'https://tse3.mm.bing.net/th/id/OIP.CnDtdGNcqnBXMfvCyrRr3AHaHd?pid=Api&P=0&h=180' }, 
+  { name: 'Laptop', category: 'Electronics', price: 85000, rating: 4.6, image: 
+'https://tse2.mm.bing.net/th/id/OIP.D8lWaNkEiGmMoEmVjcTN8AHaFG?pid=Api&P=0&h=180' }, 
+{ name: 'Jeans', category: 'Clothing', price: 1800, rating: 4.9, image: 'https://tse2.mm.bing.net/th/id/OIP.cUFKXKlq2kHcYbuTDxiPtwHaI4?pid=Api&P=0&h=180' }, 
+{ name: 'Hoodie', category: 'Clothing', price: 1500, rating: 4.6, image: 'https://tse2.mm.bing.net/th/id/OIP.lAqztUroAzE02KG6l5erbQHaJQ?pid=Api&P=0&h=180' },  { name: 'Novel', category: 'Books', price: 1000, rating: 4.6, image: 'https://cdn.dreamtemplate.com/product/images/14/5863/20090823202258_1.jpg' }, 
+  { name: 'JavaScript', category: 'Books', price: 180, rating: 4.0, image: 'https://sp.yimg.com/ib/th?id=OPAC.98SeEzFNPe38YQ474C474&o=5&pid=21.1&w=160&h=105' }, 
+  { name: 'Tablet', category: 'Electronics', price: 22000, rating: 4.3, image: 'https://tse4.mm.bing.net/th/id/OIP.lUhOnQVpr_vRUbTk4n14ogHaHa?pid=Api&P=0&h=180'},
+  { name: 'Shirt', category: 'Clothing', price: 1100, rating: 4.0, image: 'https://tse1.mm.bing.net/th/id/OIP.Iqw7ZMDVj9W0NZNUQH7ypwHaJC?pid=Api&P=0&h=180'},
+  { name: 'HTML & CSS Notebook', category: 'Books', price: 250, rating: 4.4, image: 'https://tse1.mm.bing.net/th/id/OIP.o3IcD_tzwhBxUIblbNSDygHaGI?pid=Api&P=0&h=180'}
 ]; 
 const categorySelect = document.getElementById('category'); const sortBySelect = document.getElementById('sortBy'); const productList = document.getElementById('productList'); 
  

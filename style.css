@@ -1,7 +1,7 @@
-body {   margin: 0;   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   background: linear-gradient(to right, #0bff03, #ebf703); 
+body {   margin: 0;   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   background: linear-gradient(to right, #faf9ee, #eeeeee); 
   color: #fff; 
 } 
-header {   background: linear-gradient(to right, #6366f1, #3b82f6);   padding: 20px;   text-align: center;   color: #f3f4f6;   font-size: 1.5rem; 
+header {   background: linear-gradient(to right,#cde1ff, #3b82f6);   padding: 20px;   text-align: center;   color: #f3f4f6;   font-size: 1.5rem; 
 } 
 .main-layout {   display: flex;   padding: 20px;   gap: 20px; 
 } 
